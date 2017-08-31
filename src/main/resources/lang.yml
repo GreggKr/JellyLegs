@@ -1,0 +1,7 @@
+player-only: "&cYou must be a player to do that."
+no-permission: "&cYou do not have permission to do that."
+
+toggled-on: "&9Jelly legs toggled &aon&9."
+toggled-off: "&9Jelly legs toggled &coff&9."
+
+toggled-off-because-of-reload: "&9Your jelly legs toggled &coff &9because of a reload."

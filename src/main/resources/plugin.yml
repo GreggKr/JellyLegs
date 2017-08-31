@@ -1,0 +1,15 @@
+name: JellyLegs
+main: me.sirgregg.jellylegs.JellyLegs
+version: 1.0
+author: SirGregg
+description: Allow players to toggle fall damage.
+
+commands:
+  jellylegs:
+    description: Toggles your fall damage.
+    aliases: [jl]
+
+permissions:
+  jellylegs.toggle:
+    description: Allows you to use /jl
+    default: op
