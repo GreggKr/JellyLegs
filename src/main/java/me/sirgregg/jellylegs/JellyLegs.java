@@ -59,7 +59,7 @@ public class JellyLegs extends JavaPlugin implements Listener {
 		return false;
 	}
 
-	public void toggleJellyLegs(Player player) {
+	private void toggleJellyLegs(Player player) {
 		if (jellyEnabled.contains(player)) { // if it's enabled
 			jellyEnabled.remove(player);
 			player.sendMessage(format(lang.getString("toggled-off")));
